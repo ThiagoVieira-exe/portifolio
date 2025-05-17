@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Thiago Vieira da Silva</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navegação principal no topo -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Cabeçalho do site -->
+    <header>
+      <div class="header-content">
+        <h1>Thiago Vieira da Silva</h1>
+        <p>Desenvolvedor Web & Designer</p>
+      </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="container">
+      <!-- Seção Sobre Mim -->
+      <section id="sobre">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="bio-content">
+          <div class="bio-image">
+            <img src="./img/file.jpeg" alt="Foto de Thiago" />
+          </div>
+          <div class="bio-text">
+            <p>
+              Olá! Sou Thiago Vieira da Silva, um desenvolvedor web apaixonado
+              por criar interfaces intuitivas e agradáveis. Com formação em
+              Análise e Desenvolvimento de Sistemas, minha missão é transformar
+              ideias em soluções digitais funcionais e atrativas.
+            </p>
+            <p>
+              Tenho experiência com HTML, CSS, JavaScript, além de ferramentas
+              modernas como React e Figma. Estou sempre em busca de novos
+              desafios que me permitam aprender e evoluir na área da tecnologia.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Formação -->
+      <section id="formacao">
+        <h2 class="section-title">Formação Acadêmica</h2>
+        <ul class="formacao-list">
+          <li>
+            <strong
+              >Curso Superior de Tecnologia em Análise e Desenvolvimento de
+              Sistemas</strong
+            >
+            – UNINTER (conclusão prevista: 2026)
+          </li>
+          <li>
+            <strong>Formação Full Stack</strong> – Hashtag Treinamentos
+            (cursando)
+          </li>
+          <li><strong>Certificações em Desenvolvimento Web</strong> – DIO</li>
+        </ul>
+      </section>
+
+      <!-- Seção Portfólio -->
+      <section id="portfolio">
+        <h2 class="section-title">Portfólio</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <a
+              class="link-portifolio"
+              href="https://thiagovieira-exe.github.io/linktree-tg/"
+              target="_blank"
+            >
+              <img src="img/projeto02.jpeg" alt="Projeto 2" />
+              <h3>Linktree TG Gráfica</h3>
+              <p>Linktree responsivo criado com HTML e CSS.</p>
+            </a>
+          </div>
+
+          <div class="portfolio-item">
+            <a
+              class="link-portifolio"
+              href="https://thiagovieira-exe.github.io/lista-de-tarefas/"
+              target="_blank"
+            >
+              <img src="img/projeto01.jpeg" alt="Projeto 1" />
+              <h3>Lista de Tarefas</h3>
+              <p>Lista de Tarefas criada com HTML, CSS e JavaScript.</p>
+            </a>
+          </div>
+
+          <div class="portfolio-item">
+            <a
+              class="link-portifolio"
+              href="https://thiagovieira-exe.github.io/jogo-smash-bowser-dio/"
+              target="_blank"
+            >
+              <img src="img/projeto03.jpeg" alt="Projeto 3" />
+              <h3>Jogo Smash Bowser</h3>
+              <p>Jogo Smash Bowser criado com HTML, CSS e JavaScript.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Contato -->
+      <section id="contato">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p>
+          Tem alguma pergunta ou proposta? Preencha o formulário abaixo e
+          entrarei em contato.
+        </p>
+
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              class="form-input"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-input"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              class="form-input"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2025 Thiago Vieira da Silva. Todos os direitos reservados.</p>
+      <div class="social-icons">
+        <a
+          href="https://www.linkedin.com/in/thiago-vieira-9a857829b/"
+          class="social-icon"
+          target="_blank"
+          >LInkedIn</a
+        >
+        <a
+          href="https://github.com/ThiagoVieira-exe"
+          class="social-icon"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
