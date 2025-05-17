@@ -13,7 +13,6 @@ Este é o meu portfólio pessoal desenvolvido com **HTML5** e **CSS3**, com o ob
 
 - HTML5
 - CSS3
-- (Opcional) Font Awesome / Google Fonts / Outros recursos visuais
 
 ## 📸 Preview
 
